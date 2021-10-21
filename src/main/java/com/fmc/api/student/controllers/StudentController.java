@@ -28,8 +28,11 @@ public class StudentController {
     }
 
     /**
-     *  The StudentController's GET endpoint
+     *  The StudentController's GET endpoint, returns the current grade level of the student.
+     *
      *  @param graduationYear: the student's graduation year
+     *
+     *  @return ResponseEntity<Integer> studentGradeLevel 
      */
     @GetMapping("/student/grade/{graduationYear}")
     public ResponseEntity<Integer> getStudentGradeLevel(@PathVariable Integer graduationYear) {
