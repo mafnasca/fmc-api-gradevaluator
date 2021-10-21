@@ -12,7 +12,7 @@ import java.text.ParseException;
 @SpringBootApplication
 @ComponentScan(basePackages = "com.fmc.api")
 public class FmcApiGradevaluatorApplication {
-	public static void main(String[] args) throws ParseException {
+	public static void main(String[] args) {
 		SpringApplication.run(FmcApiGradevaluatorApplication.class, args);
 	}
 }
